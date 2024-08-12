@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "swift-package-manager-google-interactive-media-ads-tvos",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/googleads/swift-package-manager-google-interactive-media-ads-tvos",
+      "state" : {
+        "branch" : "main",
+        "revision" : "a835dbc7dabeb1030c6f85aac63e8b44e67c15a0"
+      }
+    }
+  ],
+  "version" : 2
+}

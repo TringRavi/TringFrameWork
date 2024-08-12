@@ -1,0 +1,679 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70E60DE52C67ABE000E9CA79 /* GoogleInteractiveMediaAds in Frameworks */ = {isa = PBXBuildFile; productRef = 70E60DE42C67ABE000E9CA79 /* GoogleInteractiveMediaAds */; };
+		A004E4CD2C52B1BB00E71F5E /* TrickPlayParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A004E4CC2C52B1BB00E71F5E /* TrickPlayParser.swift */; };
+		A011145C2C355B4F00EBAFB0 /* AdsPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A011145B2C355B4F00EBAFB0 /* AdsPlayerView.swift */; };
+		A015887A2C54E58500B46518 /* Onest-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A01588712C54E58400B46518 /* Onest-Light.ttf */; };
+		A015887B2C54E58500B46518 /* Onest-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A01588722C54E58400B46518 /* Onest-ExtraBold.ttf */; };
+		A015887C2C54E58500B46518 /* Onest-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A01588732C54E58400B46518 /* Onest-ExtraLight.ttf */; };
+		A015887D2C54E58500B46518 /* Onest-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A01588742C54E58400B46518 /* Onest-Medium.ttf */; };
+		A015887E2C54E58500B46518 /* Onest-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A01588752C54E58500B46518 /* Onest-Thin.ttf */; };
+		A015887F2C54E58500B46518 /* Onest-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A01588762C54E58500B46518 /* Onest-Bold.ttf */; };
+		A01588802C54E58500B46518 /* Onest-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A01588772C54E58500B46518 /* Onest-SemiBold.ttf */; };
+		A01588812C54E58500B46518 /* Onest-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A01588782C54E58500B46518 /* Onest-Regular.ttf */; };
+		A01588822C54E58500B46518 /* Onest-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A01588792C54E58500B46518 /* Onest-Black.ttf */; };
+		A01588882C551E6500B46518 /* InfoSectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A01588872C551E6500B46518 /* InfoSectionView.xib */; };
+		A015888A2C5520BE00B46518 /* InfoSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01588892C5520BE00B46518 /* InfoSectionView.swift */; };
+		A02742522C66291F00490B58 /* PlayerControllerListeners.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02742512C66291F00490B58 /* PlayerControllerListeners.swift */; };
+		A03785302C254034009E4F61 /* MetaDataOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A037852F2C254034009E4F61 /* MetaDataOptions.swift */; };
+		A047B3612C44E6DD00E6A2B0 /* HLSParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A047B3602C44E6DD00E6A2B0 /* HLSParser.swift */; };
+		A047B3632C47BCF600E6A2B0 /* MoreSectionDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A047B3622C47BCF600E6A2B0 /* MoreSectionDetailView.xib */; };
+		A047B3652C47BF3500E6A2B0 /* MoreSectionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A047B3642C47BF3500E6A2B0 /* MoreSectionDetailView.swift */; };
+		A07154642C2E93BF001E2D9E /* ComingUpView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A07154632C2E93BF001E2D9E /* ComingUpView.xib */; };
+		A07154662C2E9E37001E2D9E /* ComingUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07154652C2E9E37001E2D9E /* ComingUpView.swift */; };
+		A07154692C2EB2D4001E2D9E /* ComingUpCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07154672C2EB2D4001E2D9E /* ComingUpCell.swift */; };
+		A071546A2C2EB2D4001E2D9E /* ComingUpCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A07154682C2EB2D4001E2D9E /* ComingUpCell.xib */; };
+		A071546C2C2FD71C001E2D9E /* contentDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A071546B2C2FD71C001E2D9E /* contentDataModel.swift */; };
+		A0813D0E2C21B54E00735709 /* Asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0813D0D2C21B54E00735709 /* Asset.xcassets */; };
+		A0813D1B2C2436EA00735709 /* SettingsPlayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0813D192C2436EA00735709 /* SettingsPlayerTableViewCell.swift */; };
+		A0813D1C2C2436EA00735709 /* SettingsPlayerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0813D1A2C2436EA00735709 /* SettingsPlayerTableViewCell.xib */; };
+		A0813D272C2460D600735709 /* SettingsPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0813D262C2460D600735709 /* SettingsPlayerView.swift */; };
+		A0813D292C24821600735709 /* SettingsPlayerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0813D282C24821600735709 /* SettingsPlayerView.xib */; };
+		A0838DB72C182FF2005438B3 /* TringtvOSPlayer.docc in Sources */ = {isa = PBXBuildFile; fileRef = A0838DB62C182FF2005438B3 /* TringtvOSPlayer.docc */; };
+		A0838DB82C182FF2005438B3 /* TringtvOSPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = A0838DB52C182FF2005438B3 /* TringtvOSPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0838DBF2C1832B1005438B3 /* ConfigBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0838DBE2C1832B1005438B3 /* ConfigBuilder.swift */; };
+		A0838DC12C184863005438B3 /* TringPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0838DC02C184863005438B3 /* TringPlayerView.swift */; };
+		A08986092C2938BD00FDE79E /* VTTParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08986082C2938BD00FDE79E /* VTTParser.swift */; };
+		A0FFED362C19641800F5E626 /* TvOSSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FFED352C19641800F5E626 /* TvOSSlider.swift */; };
+		A0FFED382C19648F00F5E626 /* DPadState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FFED372C19648F00F5E626 /* DPadState.swift */; };
+		A0FFED3A2C19690D00F5E626 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FFED392C19690D00F5E626 /* SliderView.swift */; };
+		A0FFED3D2C1977E900F5E626 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FFED3C2C1977E900F5E626 /* Utilities.swift */; };
+		A0FFEE942C1B031700F5E626 /* TringPlayerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0FFEE932C1B031700F5E626 /* TringPlayerView.xib */; };
+		BA5D9F87BDA87C0E341CFBFB /* Pods_TringtvOSPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 487CCEB83BC2A5A76C7B6455 /* Pods_TringtvOSPlayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		487CCEB83BC2A5A76C7B6455 /* Pods_TringtvOSPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TringtvOSPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76615963D9EFD34CB3F1AA3D /* Pods-TringtvOSPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TringtvOSPlayer.debug.xcconfig"; path = "Target Support Files/Pods-TringtvOSPlayer/Pods-TringtvOSPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		A004E4CC2C52B1BB00E71F5E /* TrickPlayParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrickPlayParser.swift; sourceTree = "<group>"; };
+		A01114572C3557B000EBAFB0 /* GoogleInteractiveMediaAds.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; name = GoogleInteractiveMediaAds.xcframework; path = "../Pods/GoogleAds-IMA-tvOS-SDK/GoogleInteractiveMediaAds.xcframework"; sourceTree = "<group>"; };
+		A011145B2C355B4F00EBAFB0 /* AdsPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsPlayerView.swift; sourceTree = "<group>"; };
+		A01588712C54E58400B46518 /* Onest-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Onest-Light.ttf"; sourceTree = "<group>"; };
+		A01588722C54E58400B46518 /* Onest-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Onest-ExtraBold.ttf"; sourceTree = "<group>"; };
+		A01588732C54E58400B46518 /* Onest-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Onest-ExtraLight.ttf"; sourceTree = "<group>"; };
+		A01588742C54E58400B46518 /* Onest-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Onest-Medium.ttf"; sourceTree = "<group>"; };
+		A01588752C54E58500B46518 /* Onest-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Onest-Thin.ttf"; sourceTree = "<group>"; };
+		A01588762C54E58500B46518 /* Onest-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Onest-Bold.ttf"; sourceTree = "<group>"; };
+		A01588772C54E58500B46518 /* Onest-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Onest-SemiBold.ttf"; sourceTree = "<group>"; };
+		A01588782C54E58500B46518 /* Onest-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Onest-Regular.ttf"; sourceTree = "<group>"; };
+		A01588792C54E58500B46518 /* Onest-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Onest-Black.ttf"; sourceTree = "<group>"; };
+		A01588832C54E63200B46518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A01588872C551E6500B46518 /* InfoSectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoSectionView.xib; sourceTree = "<group>"; };
+		A01588892C5520BE00B46518 /* InfoSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoSectionView.swift; sourceTree = "<group>"; };
+		A02742512C66291F00490B58 /* PlayerControllerListeners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerControllerListeners.swift; sourceTree = "<group>"; };
+		A037852F2C254034009E4F61 /* MetaDataOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaDataOptions.swift; sourceTree = "<group>"; };
+		A047B3602C44E6DD00E6A2B0 /* HLSParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLSParser.swift; sourceTree = "<group>"; };
+		A047B3622C47BCF600E6A2B0 /* MoreSectionDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoreSectionDetailView.xib; sourceTree = "<group>"; };
+		A047B3642C47BF3500E6A2B0 /* MoreSectionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreSectionDetailView.swift; sourceTree = "<group>"; };
+		A07154632C2E93BF001E2D9E /* ComingUpView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ComingUpView.xib; sourceTree = "<group>"; };
+		A07154652C2E9E37001E2D9E /* ComingUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComingUpView.swift; sourceTree = "<group>"; };
+		A07154672C2EB2D4001E2D9E /* ComingUpCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComingUpCell.swift; sourceTree = "<group>"; };
+		A07154682C2EB2D4001E2D9E /* ComingUpCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ComingUpCell.xib; sourceTree = "<group>"; };
+		A071546B2C2FD71C001E2D9E /* contentDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contentDataModel.swift; sourceTree = "<group>"; };
+		A0813D0D2C21B54E00735709 /* Asset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Asset.xcassets; sourceTree = "<group>"; };
+		A0813D192C2436EA00735709 /* SettingsPlayerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPlayerTableViewCell.swift; sourceTree = "<group>"; };
+		A0813D1A2C2436EA00735709 /* SettingsPlayerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsPlayerTableViewCell.xib; sourceTree = "<group>"; };
+		A0813D262C2460D600735709 /* SettingsPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPlayerView.swift; sourceTree = "<group>"; };
+		A0813D282C24821600735709 /* SettingsPlayerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsPlayerView.xib; sourceTree = "<group>"; };
+		A0838DB22C182FF2005438B3 /* TringtvOSPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TringtvOSPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0838DB52C182FF2005438B3 /* TringtvOSPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TringtvOSPlayer.h; sourceTree = "<group>"; };
+		A0838DB62C182FF2005438B3 /* TringtvOSPlayer.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = TringtvOSPlayer.docc; sourceTree = "<group>"; };
+		A0838DBE2C1832B1005438B3 /* ConfigBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigBuilder.swift; sourceTree = "<group>"; };
+		A0838DC02C184863005438B3 /* TringPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TringPlayerView.swift; sourceTree = "<group>"; };
+		A08986082C2938BD00FDE79E /* VTTParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VTTParser.swift; sourceTree = "<group>"; };
+		A0FFED352C19641800F5E626 /* TvOSSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvOSSlider.swift; sourceTree = "<group>"; };
+		A0FFED372C19648F00F5E626 /* DPadState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPadState.swift; sourceTree = "<group>"; };
+		A0FFED392C19690D00F5E626 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		A0FFED3C2C1977E900F5E626 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		A0FFEE932C1B031700F5E626 /* TringPlayerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TringPlayerView.xib; sourceTree = "<group>"; };
+		B269A56E7ACE49A3BF24CC9D /* Pods-TringtvOSPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TringtvOSPlayer.release.xcconfig"; path = "Target Support Files/Pods-TringtvOSPlayer/Pods-TringtvOSPlayer.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0838DAF2C182FF2005438B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E60DE52C67ABE000E9CA79 /* GoogleInteractiveMediaAds in Frameworks */,
+				BA5D9F87BDA87C0E341CFBFB /* Pods_TringtvOSPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		484A301A55656F6EF259B6E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A01114572C3557B000EBAFB0 /* GoogleInteractiveMediaAds.xcframework */,
+				487CCEB83BC2A5A76C7B6455 /* Pods_TringtvOSPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A01588702C54E58400B46518 /* OnestFont */ = {
+			isa = PBXGroup;
+			children = (
+				A01588712C54E58400B46518 /* Onest-Light.ttf */,
+				A01588722C54E58400B46518 /* Onest-ExtraBold.ttf */,
+				A01588732C54E58400B46518 /* Onest-ExtraLight.ttf */,
+				A01588742C54E58400B46518 /* Onest-Medium.ttf */,
+				A01588752C54E58500B46518 /* Onest-Thin.ttf */,
+				A01588762C54E58500B46518 /* Onest-Bold.ttf */,
+				A01588772C54E58500B46518 /* Onest-SemiBold.ttf */,
+				A01588782C54E58500B46518 /* Onest-Regular.ttf */,
+				A01588792C54E58500B46518 /* Onest-Black.ttf */,
+			);
+			path = OnestFont;
+			sourceTree = "<group>";
+		};
+		A01588842C551E0500B46518 /* InfoSection */ = {
+			isa = PBXGroup;
+			children = (
+				A01588872C551E6500B46518 /* InfoSectionView.xib */,
+				A01588892C5520BE00B46518 /* InfoSectionView.swift */,
+			);
+			path = InfoSection;
+			sourceTree = "<group>";
+		};
+		A0813D152C242D5B00735709 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				A0FFEE932C1B031700F5E626 /* TringPlayerView.xib */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		A0813D162C24342300735709 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A0813D0D2C21B54E00735709 /* Asset.xcassets */,
+				A01588702C54E58400B46518 /* OnestFont */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A0813D1D2C24371500735709 /* SettingsPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				A0813D1E2C24373100735709 /* Cells */,
+			);
+			path = SettingsPlayer;
+			sourceTree = "<group>";
+		};
+		A0813D1E2C24373100735709 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A0813D192C2436EA00735709 /* SettingsPlayerTableViewCell.swift */,
+				A0813D1A2C2436EA00735709 /* SettingsPlayerTableViewCell.xib */,
+				A07154672C2EB2D4001E2D9E /* ComingUpCell.swift */,
+				A07154682C2EB2D4001E2D9E /* ComingUpCell.xib */,
+				A0813D282C24821600735709 /* SettingsPlayerView.xib */,
+				A07154632C2E93BF001E2D9E /* ComingUpView.xib */,
+				A047B3622C47BCF600E6A2B0 /* MoreSectionDetailView.xib */,
+				A047B3642C47BF3500E6A2B0 /* MoreSectionDetailView.swift */,
+				A07154652C2E9E37001E2D9E /* ComingUpView.swift */,
+				A0813D262C2460D600735709 /* SettingsPlayerView.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A0838DA82C182FF2005438B3 = {
+			isa = PBXGroup;
+			children = (
+				A0838DB42C182FF2005438B3 /* TringtvOSPlayer */,
+				A0838DB32C182FF2005438B3 /* Products */,
+				EB59CA387C8A936B6A5592E4 /* Pods */,
+				484A301A55656F6EF259B6E6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A0838DB32C182FF2005438B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0838DB22C182FF2005438B3 /* TringtvOSPlayer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0838DB42C182FF2005438B3 /* TringtvOSPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				A01588832C54E63200B46518 /* Info.plist */,
+				A0FFED3B2C1977CC00F5E626 /* Helpers */,
+				A0FFED342C1963D200F5E626 /* tvOSSlider */,
+				A0813D162C24342300735709 /* Resources */,
+				A01588842C551E0500B46518 /* InfoSection */,
+				A0813D1D2C24371500735709 /* SettingsPlayer */,
+				A08986072C29388C00FDE79E /* Subtitles */,
+				A0813D152C242D5B00735709 /* Storyboard */,
+				A0838DB52C182FF2005438B3 /* TringtvOSPlayer.h */,
+				A0838DC02C184863005438B3 /* TringPlayerView.swift */,
+				A037852F2C254034009E4F61 /* MetaDataOptions.swift */,
+				A02742512C66291F00490B58 /* PlayerControllerListeners.swift */,
+				A0FFED392C19690D00F5E626 /* SliderView.swift */,
+				A011145B2C355B4F00EBAFB0 /* AdsPlayerView.swift */,
+				A0838DB62C182FF2005438B3 /* TringtvOSPlayer.docc */,
+			);
+			path = TringtvOSPlayer;
+			sourceTree = "<group>";
+		};
+		A08986072C29388C00FDE79E /* Subtitles */ = {
+			isa = PBXGroup;
+			children = (
+				A08986082C2938BD00FDE79E /* VTTParser.swift */,
+				A004E4CC2C52B1BB00E71F5E /* TrickPlayParser.swift */,
+			);
+			path = Subtitles;
+			sourceTree = "<group>";
+		};
+		A0FFED342C1963D200F5E626 /* tvOSSlider */ = {
+			isa = PBXGroup;
+			children = (
+				A0FFED352C19641800F5E626 /* TvOSSlider.swift */,
+				A0FFED372C19648F00F5E626 /* DPadState.swift */,
+			);
+			path = tvOSSlider;
+			sourceTree = "<group>";
+		};
+		A0FFED3B2C1977CC00F5E626 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A0FFED3C2C1977E900F5E626 /* Utilities.swift */,
+				A0838DBE2C1832B1005438B3 /* ConfigBuilder.swift */,
+				A047B3602C44E6DD00E6A2B0 /* HLSParser.swift */,
+				A071546B2C2FD71C001E2D9E /* contentDataModel.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		EB59CA387C8A936B6A5592E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76615963D9EFD34CB3F1AA3D /* Pods-TringtvOSPlayer.debug.xcconfig */,
+				B269A56E7ACE49A3BF24CC9D /* Pods-TringtvOSPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A0838DAD2C182FF2005438B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0838DB82C182FF2005438B3 /* TringtvOSPlayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A0838DB12C182FF2005438B3 /* TringtvOSPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0838DBB2C182FF2005438B3 /* Build configuration list for PBXNativeTarget "TringtvOSPlayer" */;
+			buildPhases = (
+				547121CC448A5A522E303612 /* [CP] Check Pods Manifest.lock */,
+				A0838DAD2C182FF2005438B3 /* Headers */,
+				A0838DAE2C182FF2005438B3 /* Sources */,
+				A0838DAF2C182FF2005438B3 /* Frameworks */,
+				A0838DB02C182FF2005438B3 /* Resources */,
+				A0FE85AA2C63554500545BDB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TringtvOSPlayer;
+			packageProductDependencies = (
+				70E60DE42C67ABE000E9CA79 /* GoogleInteractiveMediaAds */,
+			);
+			productName = TringtvOSPlayer;
+			productReference = A0838DB22C182FF2005438B3 /* TringtvOSPlayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0838DA92C182FF2005438B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A0838DB12C182FF2005438B3 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = A0838DAC2C182FF2005438B3 /* Build configuration list for PBXProject "TringtvOSPlayer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0838DA82C182FF2005438B3;
+			packageReferences = (
+				70E60DE32C67ABE000E9CA79 /* XCRemoteSwiftPackageReference "swift-package-manager-google-interactive-media-ads-tvos" */,
+			);
+			productRefGroup = A0838DB32C182FF2005438B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0838DB12C182FF2005438B3 /* TringtvOSPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0838DB02C182FF2005438B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0813D0E2C21B54E00735709 /* Asset.xcassets in Resources */,
+				A01588802C54E58500B46518 /* Onest-SemiBold.ttf in Resources */,
+				A015887A2C54E58500B46518 /* Onest-Light.ttf in Resources */,
+				A047B3632C47BCF600E6A2B0 /* MoreSectionDetailView.xib in Resources */,
+				A015887E2C54E58500B46518 /* Onest-Thin.ttf in Resources */,
+				A01588882C551E6500B46518 /* InfoSectionView.xib in Resources */,
+				A0813D1C2C2436EA00735709 /* SettingsPlayerTableViewCell.xib in Resources */,
+				A01588812C54E58500B46518 /* Onest-Regular.ttf in Resources */,
+				A015887F2C54E58500B46518 /* Onest-Bold.ttf in Resources */,
+				A015887D2C54E58500B46518 /* Onest-Medium.ttf in Resources */,
+				A07154642C2E93BF001E2D9E /* ComingUpView.xib in Resources */,
+				A015887B2C54E58500B46518 /* Onest-ExtraBold.ttf in Resources */,
+				A015887C2C54E58500B46518 /* Onest-ExtraLight.ttf in Resources */,
+				A071546A2C2EB2D4001E2D9E /* ComingUpCell.xib in Resources */,
+				A0813D292C24821600735709 /* SettingsPlayerView.xib in Resources */,
+				A01588822C54E58500B46518 /* Onest-Black.ttf in Resources */,
+				A0FFEE942C1B031700F5E626 /* TringPlayerView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		547121CC448A5A522E303612 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TringtvOSPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0FE85AA2C63554500545BDB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0838DAE2C182FF2005438B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A02742522C66291F00490B58 /* PlayerControllerListeners.swift in Sources */,
+				A0838DB72C182FF2005438B3 /* TringtvOSPlayer.docc in Sources */,
+				A0838DC12C184863005438B3 /* TringPlayerView.swift in Sources */,
+				A07154692C2EB2D4001E2D9E /* ComingUpCell.swift in Sources */,
+				A047B3652C47BF3500E6A2B0 /* MoreSectionDetailView.swift in Sources */,
+				A004E4CD2C52B1BB00E71F5E /* TrickPlayParser.swift in Sources */,
+				A011145C2C355B4F00EBAFB0 /* AdsPlayerView.swift in Sources */,
+				A07154662C2E9E37001E2D9E /* ComingUpView.swift in Sources */,
+				A0FFED3D2C1977E900F5E626 /* Utilities.swift in Sources */,
+				A08986092C2938BD00FDE79E /* VTTParser.swift in Sources */,
+				A0FFED362C19641800F5E626 /* TvOSSlider.swift in Sources */,
+				A0FFED3A2C19690D00F5E626 /* SliderView.swift in Sources */,
+				A015888A2C5520BE00B46518 /* InfoSectionView.swift in Sources */,
+				A0838DBF2C1832B1005438B3 /* ConfigBuilder.swift in Sources */,
+				A0FFED382C19648F00F5E626 /* DPadState.swift in Sources */,
+				A047B3612C44E6DD00E6A2B0 /* HLSParser.swift in Sources */,
+				A0813D272C2460D600735709 /* SettingsPlayerView.swift in Sources */,
+				A0813D1B2C2436EA00735709 /* SettingsPlayerTableViewCell.swift in Sources */,
+				A03785302C254034009E4F61 /* MetaDataOptions.swift in Sources */,
+				A071546C2C2FD71C001E2D9E /* contentDataModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A0838DB92C182FF2005438B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A0838DBA2C182FF2005438B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A0838DBC2C182FF2005438B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76615963D9EFD34CB3F1AA3D /* Pods-TringtvOSPlayer.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TringtvOSPlayer/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.develop.TringtvOSPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		A0838DBD2C182FF2005438B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B269A56E7ACE49A3BF24CC9D /* Pods-TringtvOSPlayer.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TringtvOSPlayer/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.develop.TringtvOSPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0838DAC2C182FF2005438B3 /* Build configuration list for PBXProject "TringtvOSPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0838DB92C182FF2005438B3 /* Debug */,
+				A0838DBA2C182FF2005438B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0838DBB2C182FF2005438B3 /* Build configuration list for PBXNativeTarget "TringtvOSPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0838DBC2C182FF2005438B3 /* Debug */,
+				A0838DBD2C182FF2005438B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		70E60DE32C67ABE000E9CA79 /* XCRemoteSwiftPackageReference "swift-package-manager-google-interactive-media-ads-tvos" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-interactive-media-ads-tvos";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		70E60DE42C67ABE000E9CA79 /* GoogleInteractiveMediaAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 70E60DE32C67ABE000E9CA79 /* XCRemoteSwiftPackageReference "swift-package-manager-google-interactive-media-ads-tvos" */;
+			productName = GoogleInteractiveMediaAds;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A0838DA92C182FF2005438B3 /* Project object */;
+}

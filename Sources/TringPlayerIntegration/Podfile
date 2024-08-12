@@ -1,0 +1,18 @@
+use_frameworks!
+
+workspace 'TringPlayerIntegration.xcworkspace'
+
+
+def app_pods
+     pod 'SwiftLint'
+end
+
+target 'TringtvOSPlayer' do
+    project './TringtvOSPlayer/TringtvOSPlayer.xcodeproj'
+    app_pods
+end
+
+target 'TringPlayerIntegration' do
+    project './TringPlayerIntegration/TringPlayerIntegration.xcodeproj'
+    app_pods
+end
